@@ -1,0 +1,23 @@
+ # 遍历列表中的每个元素
+#     for item in data_list:
+#         # 如果元素已经在字典中，增加其计数
+#         if item in count_dict:
+#             count_dict[item] += 1
+#         # 如果元素不在字典中，将其添加到字典并设置计数为1
+#         else:
+#             count_dict[item] = 1
+#
+#     # 过滤出重复的元素（即出现次数大于1的元素）
+#     duplicates = {k: v for k, v in count_dict.items() if v > 1}
+#
+#     # 输出重复的元素及其个数
+#     for item, count in duplicates.items():
+#         print(f"元素 '{item}' 出现了 {count} 次")
+#
+#     # 如果需要返回重复元素的个数总和，可以这样做：
+#     total_duplicates = sum(duplicates.values())
+#     print(f"总共有 {total_duplicates} 个重复的元素")
+#
+# # 示例数据
+# data = [1, 2, 3, 2, 4, 4, 5, 5, 5, 6]
+# find_duplicates_and_count(data)
