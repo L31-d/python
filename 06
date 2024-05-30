@@ -1,0 +1,24 @@
+except FileNotFoundError:
+#         print(f"文件 {attack} 未找到。")
+#         return
+#     except Exception as e:
+#         print(f"读取文件时发生错误: {e}")
+#         return
+#
+#         # 过滤出重复的元素（即出现次数大于1的元素）
+#     duplicates = {k: v for k, v in count_dict.items() if v > 1}
+#
+#     # 输出重复的元素及其个数
+#     for item, count in duplicates.items():
+#         print(f"元素 '{item}' 出现了 {count} 次")
+#
+#         # 如果需要返回重复元素的个数总和，可以这样做：
+#     total_duplicates = sum(duplicates.values())
+#     print(f"总共有 {total_duplicates} 个重复的元素")
+#
+#
+# # 示例文件路径（请替换为你的实际文件路径）
+# attack = 'attack.csv'
+# find_duplicates_in_file(attack)def find_duplicates_and_count(data_list):
+#     # 创建一个空字典来存储元素及其出现次数
+#     count_dict = {}
