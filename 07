@@ -1,0 +1,105 @@
+# d={10:'cat',20:'dog',30:'pet',20:'zoo'}
+# print(d)
+#
+# lst1={10,20,30,40}
+# lst2={'cat','dog','pet','zoo','car'}
+# zipobj=zip(lst1,lst2)
+# print(zipobj)
+# d=dict(zipobj)
+# print(d)
+#
+# d=dict(cat=10,dog=20)
+# print(d)
+# t=(10,20,30)
+# print({t:10})
+# print('max:',max(d))
+# print('min:',min(d))
+# print('len:',len(d))
+#
+# del d
+
+
+# d={1001:'李梅',1002:'王华',1003:'张峰'}
+# print(d)
+# d[1004]='张丽丽'
+# print(d)
+# keys=d.keys()
+# print(keys)
+# print(list(keys))
+# print(tuple(keys))
+# values=d.values()
+# print(values)
+# print(list(values))
+# print(tuple(values))
+
+
+
+# lst=list(d.items())
+# # print(lst)
+# # d=dict(lst)
+# # print(d)
+# # print(d.pop(1001))
+# # print(d)
+# # print(d.pop(1008,'不存在'))
+# # print(d.popitem())
+# # print(d)
+# # d.clear()
+# # print(d)
+# # print(bool(d))
+
+# import ranaom
+# d={item:random.randint(a:1,b:100) for item in range(4)}
+#     print(d)
+# lst[100,1002,1002]
+# lst2=['陈梅梅','王一一','李丽丽']
+# d={key:value for key,value in zip(lst,lst2)}
+# print(d)
+
+# def plusOne(digits):
+#     # 从数组末尾开始遍历
+#     carry = 1  # 初始进位为1
+#     for i in range(len(digits) - 1, -1, -1):
+#         # 当前位与进位相加
+#         sum_digit = digits[i] + carry
+#         # 更新当前位
+#         digits[i] = sum_digit % 10
+#         # 更新进位
+#         carry = sum_digit // 10
+#
+#         # 如果最高位也有进位，则在数组最前面插入1
+#     if carry:
+#         digits.insert(0, carry)
+#
+#     return digits
+#
+#
+# # 示例
+# digits = [1, 2, 3]
+# print(plusOne(digits))  # 输出: [1, 2, 4]
+#
+# digits = [9, 9, 9]
+# print(plusOne(digits))  # 输出: [1, 0, 0, 0]
+#
+# digits = [0]
+# print(plusOne(digits))  # 输出: [1]
+
+
+# def plusOne(digits):
+#     carry = 1
+#     for i in range(len(digits) - 1, -1, -1):
+#         sum_digit = digits[i] + carry
+#         digits[i] = sum_digit % 10
+#         carry = sum_digit // 10
+#     if carry:
+#         digits.insert(0, carry)
+#     return digits
+# digits = [1, 2, 3]
+# print(plusOne(digits))
+# digits = [9, 9, 9]
+# print(plusOne(digits))
+# digits = [0]
+# print(plusOne(digits))
+
+
+
+
